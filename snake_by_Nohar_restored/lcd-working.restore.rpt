@@ -1,0 +1,138 @@
+Restore Archived Project report for lcd-working
+Tue Mar 18 10:48:53 2025
+Quartus Prime Version 17.0.0 Build 595 04/25/2017 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2017  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Tue Mar 18 10:48:53 2025 ;
+; Revision Name                   ; lcd-working                           ;
+; Top-level Entity Name           ; Top_template                          ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'W:/projects/snake on fpga/snake_by_Nohar.qar' into the 'W:/projects/snake on fpga/snake_by_Nohar_restored/' directory
+Info: Generated report 'lcd-working.restore.rpt'
+Info (23030): Evaluation of Tcl script w:/quartus/lite/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4837 megabytes
+    Info: Processing ended: Tue Mar 18 10:48:53 2025
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-------------------------------------------------------------------+
+; Files Restored                                                    ;
++-------------------------------------------------------------------+
+; File Name                                                         ;
++-------------------------------------------------------------------+
+; qar_info.json                                                     ;
+; Apple_SignalTap.stp                                               ;
+; Apple_unit.sv                                                     ;
+; Draw_Intel.sv                                                     ;
+; Draw_snake.sv                                                     ;
+; Drawing_priority.sv                                               ;
+; Intel_unit.sv                                                     ;
+; Move_Intel.sv                                                     ;
+; Move_snake.sv                                                     ;
+; Place_Apple.sv                                                    ;
+; Screens_dispaly.sv                                                ;
+; Top_template.sv                                                   ;
+; Waveform.vwf                                                      ;
+; adc.qsys                                                          ;
+; adc.sopcinfo                                                      ;
+; adc/adc.cmp                                                       ;
+; adc/synthesis/adc.debuginfo                                       ;
+; adc/synthesis/adc.qip                                             ;
+; adc/synthesis/adc.v                                               ;
+; adc/synthesis/submodules/DE10_Lite_ADC_Core_modular_adc_0.v       ;
+; adc/synthesis/submodules/adc_adc_0.v                              ;
+; adc/synthesis/submodules/altera_modular_adc_control.v             ;
+; adc/synthesis/submodules/altera_modular_adc_control_avrg_fifo.v   ;
+; adc/synthesis/submodules/altera_modular_adc_control_fsm.v         ;
+; adc/synthesis/submodules/altera_modular_adc_sample_store.v        ;
+; adc/synthesis/submodules/altera_modular_adc_sample_store_ram.v    ;
+; adc/synthesis/submodules/altera_modular_adc_sequencer.v           ;
+; adc/synthesis/submodules/altera_modular_adc_sequencer_csr.v       ;
+; adc/synthesis/submodules/altera_modular_adc_sequencer_ctrl.v      ;
+; adc/synthesis/submodules/altera_reset_controller.sdc              ;
+; adc/synthesis/submodules/altera_reset_controller.v                ;
+; adc/synthesis/submodules/altera_reset_synchronizer.v              ;
+; adc/synthesis/submodules/altera_up_avalon_adv_adc.v               ;
+; adc/synthesis/submodules/chsel_code_converter_sw_to_hw.v          ;
+; adc/synthesis/submodules/fiftyfivenm_adcblock_primitive_wrapper.v ;
+; adc/synthesis/submodules/fiftyfivenm_adcblock_top_wrapper.v       ;
+; analog_input.sv                                                   ;
+; assignment_defaults.qdf                                           ;
+; db/Apple_SignalTap_auto_stripped.stp                              ;
+; draw_apple.sv                                                     ;
+; lcd-working.qsf                                                   ;
+; lcd_cmd.qip                                                       ;
+; lcd_cmd.v                                                         ;
+; lcd_cmd_bb.v                                                      ;
+; lcd_cmd_inst.v                                                    ;
+; lcd_connect.qsf                                                   ;
+; lcd_ctrl.sv                                                       ;
+; my_cpu.qpf                                                        ;
+; my_cpu.qsf                                                        ;
+; periphery_control.sv                                              ;
+; pll25.ppf                                                         ;
+; pll25.qip                                                         ;
+; pll25.v                                                           ;
+; pll25_bb.v                                                        ;
+; pll25_inst.v                                                      ;
+; rev5-initial_working.qsf                                          ;
+; seven_segment.sv                                                  ;
+; snake_body_unit.sv                                                ;
+; snake_tail_sim.vwf                                                ;
+; snake_unit.sv                                                     ;
+; text_lcd_cmd.mif                                                  ;
+; variable_queue_sim.vwf                                            ;
+; variable_stack_sim.vwf                                            ;
+; vga_controller.v                                                  ;
++-------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+
